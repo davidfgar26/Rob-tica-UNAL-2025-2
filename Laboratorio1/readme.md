@@ -4,3 +4,20 @@ La robótica industrial constituye un pilar fundamental en los procesos de autom
 Para lograrlo, se planteó una práctica inspirada en un proceso real de la industria alimentaria: la decoración de tortas. A partir de esta referencia, se desarrollaron trayectorias que simulan la escritura de nombres y figuras sobre una superficie, empleando una herramienta diseñada y calibrada por cada grupo. Asimismo, se trabajó en la configuración de workobjects, la programación de rutinas con condicionales y bucles, y el control de periféricos mediante señales digitales.
 
 De esta manera, el laboratorio permitió afianzar conocimientos teóricos en un entorno práctico, favoreciendo la comprensión de cómo los robots industriales pueden adaptarse a tareas específicas a través de la programación y la correcta integración de hardware y software.
+
+El programa desarrollado en RAPID combina el control de trayectorias del robot con el manejo de señales digitales de entrada y salida, integrando tanto el movimiento del manipulador como la interacción con periféricos.
+
+## Secuencia de dibujo y control de la banda transportadora
+
+- Se definen múltiples trayectorias (paths) a través de robtargets que representan letras y decoraciones.
+- Cada trayectoria es ejecutada mediante instrucciones MoveL y MoveC, garantizando trazos rectos y curvos según la geometría deseada.
+- Durante la ejecución se utilizan salidas digitales para controlar periféricos, específicamente la banda transportadora.
+- Al finalizar la escritura, el programa activa una salida digital SET para encender la banda y trasladar el pastel.
+- Luego, otra instrucción RESET detiene la banda cuando el transporte termina.
+
+## Modo de mantenimiento
+- Se define una rutina que mueve el robot a una posición de mantenimiento (pose segura para instalar o retirar la herramienta).
+- Una vez en esta posición, el robot permanece detenido hasta recibir una señal de entrada digital.
+- Mientras la entrada no se active, el robot no abandona la pose, garantizando seguridad en el montaje/desmontaje de la herramienta.
+- Cuando la señal de entrada se activa, el flujo del programa se reanuda, permitiendo regresar a HOME y continuar con la operación normal.
+En conjunto, la solución implementa un sistema híbrido de control de trayectorias y periféricos, cubriendo tanto la automatización del proceso de decorado como la seguridad en el mantenimiento.
