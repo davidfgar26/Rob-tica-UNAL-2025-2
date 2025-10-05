@@ -1,1 +1,6 @@
-e
+# Laboratorio No. 01 Robotica Industrial - Trayectorias, Entradas y Salidas Digitales
+La robótica industrial constituye un pilar fundamental en los procesos de automatización actuales, permitiendo optimizar tareas repetitivas, aumentar la precisión y mejorar la productividad en diversas industrias. En este contexto, el presente laboratorio tuvo como propósito introducir a los estudiantes en el manejo de un robot ABB IRB 140 y su entorno de programación mediante RobotStudio, explorando conceptos esenciales como la definición de trayectorias, la calibración de herramientas, la programación en RAPID y la integración de señales digitales de entrada y salida.
+
+Para lograrlo, se planteó una práctica inspirada en un proceso real de la industria alimentaria: la decoración de tortas. A partir de esta referencia, se desarrollaron trayectorias que simulan la escritura de nombres y figuras sobre una superficie, empleando una herramienta diseñada y calibrada por cada grupo. Asimismo, se trabajó en la configuración de workobjects, la programación de rutinas con condicionales y bucles, y el control de periféricos mediante señales digitales.
+
+De esta manera, el laboratorio permitió afianzar conocimientos teóricos en un entorno práctico, favoreciendo la comprensión de cómo los robots industriales pueden adaptarse a tareas específicas a través de la programación y la correcta integración de hardware y software.
