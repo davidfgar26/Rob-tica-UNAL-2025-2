@@ -21,3 +21,12 @@ El programa desarrollado en RAPID combina el control de trayectorias del robot c
 - Mientras la entrada no se active, el robot no abandona la pose, garantizando seguridad en el montaje/desmontaje de la herramienta.
 - Cuando la señal de entrada se activa, el flujo del programa se reanuda, permitiendo regresar a HOME y continuar con la operación normal.
 En conjunto, la solución implementa un sistema híbrido de control de trayectorias y periféricos, cubriendo tanto la automatización del proceso de decorado como la seguridad en el mantenimiento.
+
+## Descripción de las funciones utilizadas
+- MoveL – Movimiento lineal cartesiano, usado para dibujar letras y trazos rectos.
+- MoveC – Movimiento circular cartesiano, empleado para curvas y trayectorias suaves.
+- MoveJ – Movimiento articular, utilizado para cambios rápidos entre posiciones (ej. regreso a HOME o mantenimiento).
+- robtarget – Variables constantes con posiciones predefinidas del robot (coordenadas y orientación).
+- PROC … ENDPROC – Procedimientos que encapsulan cada trayectoria (Path_10, Path_20, etc.), la rutina de mantenimiento y la secuencia principal.
+- SET activa una salida (ej. encender banda transportadora o luz de estado).
+- RESET desactiva una salida.
