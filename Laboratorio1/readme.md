@@ -29,7 +29,7 @@ En conjunto, la solución implementa un sistema híbrido de control de trayector
 - robtarget – Variables constantes con posiciones predefinidas del robot (coordenadas y orientación).
 - PROC … ENDPROC – Procedimientos que encapsulan cada trayectoria (Path_10, Path_20, etc.), la rutina de mantenimiento y la secuencia principal.
 - SET activa una salida (ej. encender banda transportadora o luz de estado).
-- RESET desactiva una salida.
+- RESET desactiva una salida.  
 Revisar código rapid [ Programa RAPID - Module1.mod](./Module1.mod)
 ## Video Simulación de la rutina robot ABB
 [Ver Video Simulación](./Video%20Simulacion.mp4)
