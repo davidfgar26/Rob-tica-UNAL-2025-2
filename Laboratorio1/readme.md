@@ -6,7 +6,8 @@ Para lograrlo, se planteó una práctica inspirada en un proceso real de la indu
 De esta manera, el laboratorio permitió afianzar conocimientos teóricos en un entorno práctico, favoreciendo la comprensión de cómo los robots industriales pueden adaptarse a tareas específicas a través de la programación y la correcta integración de hardware y software.
 
 El programa desarrollado en RAPID combina el control de trayectorias del robot con el manejo de señales digitales de entrada y salida, integrando tanto el movimiento del manipulador como la interacción con periféricos.
-
+## Diagrama de Flujo de Trabajo robot ABB
+![Diagrama](./Diagrama_Flujo.png)
 ## Secuencia de dibujo y control de la banda transportadora
 
 - Se definen múltiples trayectorias (paths) a través de robtargets que representan letras y decoraciones.
