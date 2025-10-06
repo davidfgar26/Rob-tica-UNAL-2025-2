@@ -30,7 +30,7 @@ Para programar la rutina de funcinamiento es necesario conocer el espacio de tra
 -Banda Transportadora 
 -Robot ABB IRB140
 -Pastel
-![Plano_Planta](./Plano_Planta.png)
+[Plano_Planta](https://drive.google.com/drive/folders/1m9bLsUY3h1o9nVy3-tOxG_N4i99i_Ioc?usp=sharing)
 ## Descripción de las funciones utilizadas
 - MoveL – Movimiento lineal cartesiano, usado para dibujar letras y trazos rectos.
 - MoveC – Movimiento circular cartesiano, empleado para curvas y trayectorias suaves.
