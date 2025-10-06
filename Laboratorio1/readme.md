@@ -24,7 +24,7 @@ El programa desarrollado en RAPID combina el control de trayectorias del robot c
 En conjunto, la solución implementa un sistema híbrido de control de trayectorias y periféricos, cubriendo tanto la automatización del proceso de decorado como la seguridad en el mantenimiento.
 ## Plano Herramienta
 Para evitar problemas con los sitemas coordenados del efector final  con el TCP de la herramienta (Singularidad) se diseño el soporte de marcador con un ángulo de 70°
-Planos de Herramientas(./Plano Herramienta soporte marcador.pdf)
+Planos de Herramientas(./Plano%20Herramienta%20soporte%20marcador.pdf)
 
 ## Descripción de las funciones utilizadas
 - MoveL – Movimiento lineal cartesiano, usado para dibujar letras y trazos rectos.
