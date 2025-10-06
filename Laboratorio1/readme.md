@@ -34,4 +34,4 @@ Revisar código rapid [ Programa RAPID - Module1.mod](./Module1.mod)
 ## Video Simulación de la rutina robot ABB
 [Ver Video Simulación](./Video%20Simulacion.mp4)
 ## Video de comprobacion en Laboratorio
-[Ver Video Implementacion](./Video%20Implementacion.mp4)
+[Ver Video Implementacion](https://drive.google.com/file/d/1O5KdWd1j4Cgxe9Qc39gbEB7oUv4XNwzi/view?usp=sharing)
