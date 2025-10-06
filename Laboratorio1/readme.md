@@ -30,3 +30,5 @@ En conjunto, la solución implementa un sistema híbrido de control de trayector
 - PROC … ENDPROC – Procedimientos que encapsulan cada trayectoria (Path_10, Path_20, etc.), la rutina de mantenimiento y la secuencia principal.
 - SET activa una salida (ej. encender banda transportadora o luz de estado).
 - RESET desactiva una salida.
+##
+[Ver Video Simulación](./Video%20Simulacion.mp4)
