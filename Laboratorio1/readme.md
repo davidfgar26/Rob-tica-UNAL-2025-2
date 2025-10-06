@@ -25,7 +25,12 @@ En conjunto, la solución implementa un sistema híbrido de control de trayector
 ## Plano Herramienta
 Para evitar problemas con los sitemas coordenados del efector final  con el TCP de la herramienta (Singularidad) se diseño el soporte de marcador con un ángulo de 70°
 [Plano Herramienta](./Plan_Herramienta_soporte_marcador.pdf)
-
+## Plano zona de trabajo
+Para programar la rutina de funcinamiento es necesario conocer el espacio de trabajo por ello se realiza un plano de dimensiones entre los distintos elementos que interactuaran 
+-Banda Transportadora 
+-Robot ABB IRB140
+-Pastel
+![Plano_Planta](./Plano_Planta.png)
 ## Descripción de las funciones utilizadas
 - MoveL – Movimiento lineal cartesiano, usado para dibujar letras y trazos rectos.
 - MoveC – Movimiento circular cartesiano, empleado para curvas y trayectorias suaves.
